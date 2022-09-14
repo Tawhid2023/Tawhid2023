@@ -1,0 +1,134 @@
+
+/**{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background: #2980b9;
+   color: white;
+   transform: scale(1.1);
+}
+*/
+header .sec-1{
+    opacity: 0.8;
+    background: crimson;
+    text-align: right;
+    padding: 1%;
+}
+header .sec-1 span{font-weight: bolder;
+ font-size: x-large;
+}
+header .sec-1 a{
+
+    text-decoration: none;
+    color: white;
+    font-size: large;
+   padding-bottom: 5px;
+}
+header .sec-1 a:hover{opacity: 1;
+background:  rgb(35, 236, 35);
+border-radius: 5px;
+cursor: pointer;
+color:rgb(46, 46, 2) ;
+}
+.sec-2{
+position: relative;
+    height: 100px;
+    background-color: rgb(9, 37, 197);
+    padding: 10px;
+}
+.sec-2 img{
+       height: 50px;
+       width: 50px;
+       border: 2px solid white;
+       border-radius:50%;
+       margin:12px;
+       padding: 1%;
+       position: absolute;    
+      }
+
+.sec-2 h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.row{
+background-color: navy;
+padding: 2%;
+text-align: center;
+
+}
+.field-2  input{
+width: 60%;
+margin: 2%;
+padding: 1%;
+}
+.field-2{
+color: white;
+}
+              /* for log in page start*/
+                @media only screen and (min-width:700px) {
+                     .sec-2 h1{
+                      
+                       font-size:3rem;
+                      margin-bottom: 20px;
+                      position: absolute;
+                      margin:   auto;
+                    margin-left: 20%;
+                     }
+             .sec-2 img{
+                    height: 80px;
+                    width: 80px;
+                    margin: auto;
+
+                    position: absolute;       } 
+                   }
+              form{
+                  text-align: left;
+                  margin: 10px;
+                  font-size: 1.5rem;
+              }
+             input{
+                 margin: 4px;
+                 height: 35px;
+                 width: 200px;
+                 border: 2px solid black;
+             } 
+             .log-in{
+                 width: auto;
+                 margin-top: 9px;
+                 font-size: medium;
+             }
+             .log-in:hover{
+                 background: navy;
+                 color: white;
+             }
+             .field-1{
+                 margin-top: 10px;
+                 margin: 0 auto;
+                 width: 350px;
+                 padding: 30px;
+             }
+              /*log in page style end*/

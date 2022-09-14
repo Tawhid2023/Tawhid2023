@@ -1,0 +1,263 @@
+html{
+    scroll-behavior: smooth;
+}
+a{
+
+  color: navy;  
+}
+
+
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+
+}
+ 
+/* register start */
+.sec-1{
+    opacity: 0.8;
+    background: crimson;
+    padding: 1%;
+   
+}
+ 
+.s-1{
+   position: absolute;
+   top: 0%;
+    left: 55%;
+}
+@media screen and (max-width:400px){
+    .s-1{
+     
+        top: 1%;
+        left: 45%;
+     }
+
+}
+@media screen and (min-width:768px){
+    .s-1{
+        position: absolute;
+        top: 1%;
+        left: 75%;
+     }
+    
+}
+.sec-1 span{font-weight: bolder;
+ font-size: x-large;
+
+}
+.sec-1 a{
+
+    text-decoration: none;
+    color: white;
+    font-size: large;
+   padding-bottom: 5px;
+}
+ .sec-1 a:hover{opacity: 1;
+background:  rgb(35, 236, 35);
+border-radius: 5px;
+cursor: pointer;
+color:rgb(46, 46, 2) ;
+} 
+ 
+/* register end */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+ 
+
+/* header start  */
+
+header{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ height: 175vh;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.navbar-icon{
+    color: white;
+    margin-left: 40px;
+}
+.con-1{
+height: 2800px;
+
+}
+.container a h1{
+    font-size: 1.3rem;
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    }
+    .container a h1 span{
+    color: red;
+        }
+        .container a h1 span:hover{
+            color: rgb(146, 10, 10);
+        }
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+    margin-left: -20px;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background:navy;
+   color: white;
+   transform: scale(1.1);
+}
+
+ 
+.field-2  input{
+    width: 60%;
+    margin: 2%;
+    padding: 1%;
+    }
+    .field-2{
+    color: white;
+    }
+    
+@media screen and (min-width:768px){
+    
+    #logo{
+						height: 90px;
+						width: 90px;
+					margin-left: -25px;
+					}  
+                    .con-1{
+                        height: 1380px;
+                        
+                        }
+ .container li a{
+margin-top: 60px;
+
+	}
+.container li a:hover{
+	cursor: pointer;
+	background-color: navy;
+}
+.container a h1{
+    font-size: 3rem;
+    top: 10%;
+    }
+    header{
+        height: 210vh;
+        overflow: auto;
+    }
+
+    }
+
+
+     
+
+/* header ends  */
+  /* card style start */
+  .card{
+    background-color: navy;
+    text-align: justify;
+    margin:4%;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    
+        }
+        .card:hover{
+        transform: scale(1.06);
+        box-shadow: 2px 6px 5px black;
+    }
+        .card-body{
+    margin-left: 12%;
+        }
+     .card-body input{
+         width: 90%;
+         margin: 1% 0;
+         font-size: 1rem;
+         padding: 1% 3%;
+         letter-spacing: 1px;
+     }
+     .card-body label{
+    font-size: 1.5rem;
+     }
+       /* card style end */
+       /* paragraph start*/
+       .col-md-8 a:hover{
+        background-color: rgb(83, 5, 114);
+        color: rgb(248, 245, 239);
+    }
+    @media only screen and (min-width:700px) {
+.card{
+    height: 550px;
+}
+    }
+    /* paragraph end */
+    /* footer start */
+    .footer-1{
+        background-color: black;
+        color: white;
+        
+
+    }
+    
+     /* footer endt*/
+
+              /* for log in page start*/
+              @media only screen and (min-width:700px) {
+                .sec-2 h1{
+                 
+                  font-size:3rem;
+                 margin-bottom: 20px;
+                 position: absolute;
+                 margin:   auto;
+               margin-left: 20%;
+                }
+        .sec-2 img{
+               height: 80px;
+               width: 80px;
+               margin: auto;
+
+               position: absolute;      
+             } 
+
+                }
+         form{
+             text-align: left;
+             margin: 10px;
+             font-size: 1.5rem;
+         }
+        input{
+            margin: 4px;
+            height: 35px;
+            width: 100%;
+            border: 2px solid black;
+        } 
+        .log-in{
+            width: 40%;
+            margin-top: 9px;
+            font-size: medium;
+        }
+        .log-in:hover{
+            background: navy;
+            color: white;
+        }
+        .field-1{
+            margin-top: 10px;
+            margin: 0 auto;
+            width: 350px;
+            padding: 30px;
+        }
+         /*log in page style end*/
+

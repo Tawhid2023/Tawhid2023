@@ -1,0 +1,367 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index বাংলা</title>
+       <!-- font awesome 5 link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	 
+	</head>
+	<body>
+		 <div class="container con-0"> 
+		<section class="sec-1" >
+			<a  href="../index.html">English</a>
+            <span class="s-1"><a  href="bRegister.html">  নিবন্ধন  </a><span id="blod"> / </span> <a data-target="blank" href="blogin.html" target="blank">লগ ইন</a>
+		</span> 
+		</section>
+	</div>
+		<div class="container con-1" id="top">
+	<header>
+
+		<nav class="navbar navbar-expand-md">     
+			<a class="navbar-brand" href="bindex.html">
+				<img src="../images/bdbb.jpeg" id="logo" alt="logo" class="rounded-circle" height="80px" width="80px" >
+</a>     	<a href="bindex.html" class="navbar-brand" >
+	<h1 >বাংলাদেশ <span> ব্লাড </span> ব্যাংক</h1></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" onclick="#navbarNavDropdown" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span> <i class="fas fa-bars navbar-icon"></i> </span>
+			</button>
+
+		 
+		
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+									<a class="nav-link text-center text-md-right" href="bindex.html">হোম</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link text-center text-md-right" href="bdonar.html">রক্তদাতা হোন </a>
+						</li>
+						
+							<li class="nav-item">
+									<a class="nav-link text-center text-md-left" href="babout.html">আমাদের সম্পর্কে</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link text-center text-md-left" href="bRegister.html">রেজিস্টার</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link text-center text-md-left" href="bRules.html">নিয়ম</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link text-center text-md-left" href="bcontact.html">যোগাযোগ</a>
+							</li>      
+							<li class="nav-item">
+								<a class="nav-link text-center text-md-left" href="bprofile.html">প্রোফাইল</a>
+						</li>       
+					</ul>
+			</div>
+	</nav>
+			
+	
+
+<div class="row">
+	<div class="col-md-5">
+ <div class="row">
+	<div class="col-12">
+					<div class="card " id="donar-search">
+
+									<form method="post" enctype="text/plain" class="was-validated">
+										
+									<div class="card-headder">    
+									</div>
+									<div class="card-body"><div class="form-group ">
+													<label for="blood-group"> রক্তের গুরুপ নির্বাচন করুন</label>
+													<input  class="form-control" list="blood-group" name="
+													blood-group" id="bd-group"
+													type="text" placeholder="রক্তের গ্রুপ" required>
+													<datalist id="blood-group">
+																	<option value="A+(positive)"></option>
+																	<option value="A-(negitive)"></option>
+																	<option value="B+(positive)"></option>
+																	<option value="B-(negitive)"></option>
+																	<option value="O+(positive)"></option>
+																		<option value="O-(negitive)"></option>
+																		<option value="AB+(positive)"></option>
+																		<option value="AB-(negitive)"></option>
+															</datalist>
+															<div class="valid-feedback">valid</div>
+															<div class="invalid-feedback" style="color: white;">রক্তের গ্রুপ নির্বাচন করুন</div>
+															</div>
+													
+													<div class="form-group">
+														<label for="divition"> বিভাগ নির্বাচন করুন</label><br>
+													<input  class="form-control" list="divition" name="
+													blood-group" id="dition"
+													type="text" placeholder="বিভাগ" required>
+									
+													<datalist id="divition">
+																	<option value="Barisal"></option>
+																	<option value="Chittagong"></option>
+																	<option value="Dhaka"></option>
+																	<option value="Khulna"></option>
+																	<option value="Mymensingh"></option>
+																		<option value="Rajshahi"></option>
+																		<option value="Rangpur"></option>
+																		<option value="Sylhet"></option>
+															</datalist>
+													</div>
+									
+													<label> জেলা <sub style="font-size: small;">(ইংরেজিতে লিখুন )</sub></label><br>
+													<input type="text" placeholder="Barguna"> 
+													<br>     
+													<label>উপজেলা  <sub style="font-size: small;">(ইংরেজিতে লিখুন )</sub></label><br>
+													<input type="text" placeholder="Amtali"> 
+													<br> 
+													<input  class="btn btn-light btn-outline-primary mt-3" type="submit"value='খুজুন' >
+									</div>
+							 
+
+									</form>
+
+					</div>
+	</div>
+	
+</div>
+
+<div class="row">
+	<div class="col-12">
+					<div class="card" id="doctor-search">
+									<div class="card-headder">
+														
+									</div>
+									<div class="card-body">
+													<label for="doctors"> ডাক্তারদের ধরন নির্বাচন করুন</label><br>
+													<input list="doctors" name="doctor" id="doctor"type="text" placeholder="ডাক্তারদের ধরন">
+													<datalist id="doctors">
+													
+																	<option value="Sexual  Doctor ( যৌন ডাক্তার )"></option>
+																	<option value="Asthma doctor ( হাপানি চিকিত্সক)"></option>
+																	<option value=" Dentish(দাঁতের ডাক্তার )"></option>
+																	<option value="Allergist (এলার্জিস্ট)"></option>
+																	<option value="Dermatologist (চর্ম বিশেষজ্ঞ)"></option>
+																	<option value="Medicine Specialist ( মেডিসিন বিশেষজ্ঞ)"></option>
+																	<option value=" Anaesthesiologist (অ্যানাস্থেসিওলজিস্ট)"></option>
+																	<option value=" Andrologist (অ্যান্ড্রোলজিস্ট)"></option>
+																	<option value=" Cardiologist (হৃদরোগ বিশেষজ্ঞ)"></option>
+																	<option value="Cardiac Electrophysiologist (কার্ডিয়াক ইলেক্ট্রোফিজিওলজিস্ট)"></option>
+																	<option value="Oncologist ( ক্যান্সার বিশেষজ্ঞ)"></option>
+																	<option value="Ophthalmologist (চক্ষু বিশেষজ্ঞ )"></option>
+																	<option value="Obstetrician/Gynecologist  (প্রসূতি বিশেষজ্ঞ / স্ত্রীরোগ বিশেষজ্ঞ  )"></option>
+																	<option value="Orthopedic Surgeon / Orthopedist ( অর্থোপেডিক সার্জন / অর্থোপেডিস্ট)"></option>
+																	<option value="Dietitian/Dietician(ডায়েটিশিয়ান)"></option>
+																	<option value="Emergency Room (ER) Doctor (জরুরী কক্ষ (ইআর) ডাক্তার)"></option>
+																	<option value="Endocrinologist (এন্ডোক্রিনোলজিস্ট)"></option>
+																	<option value="Epidemiologist (এপিডেমিওলজিস্ট)"></option>
+																	<option value="Gastroenterologist (গ্যাস্ট্রোএন্টারোলজিস্ট)"></option>
+																	<option value="Geriatrician (জেরিয়াট্রিশিয়ান)"></option>
+																	<option value=" Hyperbaric Physician (হাইপারবারিক চিকিত্সক)"></option>
+																	<option value="Hematologist(হেমাটোলজিস্ট)"></option>
+																	<option value=" Hepatologist (হেপাটোলজিস্ট)"></option>
+																	<option value="Immunologist (ইমিউনোলজিস্ট )"></option>
+																	<option value="Infectious Disease Specialist (সংক্রামক রোগ বিশেষজ্ঞ )"></option>
+																	<option value="Intensivist ( ইনটেনসিভিস্ট)"></option>
+																	<option value="Internal Medicine Specialist ( ইন্টারনাল মেডিসিন বিশেষজ্ঞ)"></option>
+																	<option value=" Oral Surgeon( ওরাল সার্জন)"></option>
+																	<option value=" Medical Examiner(চিকিৎসাবিদ্যা পরীক্ষক )"></option>
+																	<option value="Medical Geneticist (মেডিকেল জেনেটিক )"></option>
+																	<option value="Medicine Physician (মেডিসিন চিকিত্সক)"></option>
+																	<option value="Neonatologist ( নিউওনোলজিস্ট)"></option>
+																	<option value=" Nephrologist(নেফ্রোলজিস্ট)"></option>
+																	<option value="Neurologist (স্নায়ু বিশেষজ্ঞ )"></option>
+																	<option value=" Neurosurgeon(নিউরোসার্জন )"></option>
+																	<option value=" Nuclear Medicine Specialist (নিউক্লিয়ার মেডিসিন বিশেষজ্ঞ)"></option>
+																	<option value="Otolaryngologist (অটোলারিঙ্গোলজিস্ট )"></option>
+																	<option value="Osteopath ( অস্টিওপ্যাথ)"></option>
+																	<option value="Registered Massage Therapist ( নিবন্ধিত ম্যাসেজ থেরাপিস্ট)"></option>
+																	<option value="Palliative Care Specialist ( উপশম কেয়ার বিশেষজ্ঞ)"></option>
+																	<option value="Parasitologist (পরজীবী বিশেষজ্ঞ )"></option>
+																	<option value="Pathologist (প্যাথলজিস্ট )"></option>
+																	<option value="Perinatologist (পেরিনিটোলজিস্ট )"></option>
+																	<option value="Periodontist (পিরিওডন্টিস্ট )"></option>
+																	<option value="Pediatrician ( শিশু বিশেষজ্ঞ)"></option>
+																	<option value=" Physiatrist (ফিজিয়েট্রিস্ট )"></option>
+																	<option value="Plastic Surgeon ( প্লাস্টিক সার্জন)"></option>
+																	<option value="Psychiatrist ( মনোরোগ বিশেষজ্ঞ)"></option>
+																	<option value="Pulmonologist (পালমোনোলজিস্ট )"></option>
+																	<option value="Radiologist ( রেডিওলজিস্ট)"></option>
+																	<option value="Rheumatologist (বাত বিশেষজ্ঞ )"></option>
+																	<option value="Sleep Doctor (ঘুমের ডাক্তার )"></option>
+																	<option value="Spinal Cord Injury Specialist ( স্পাইনাল কর্ড ইনজুরি বিশেষজ্ঞ)"></option>
+																	<option value="Sports Medicine Specialist (স্পোর্টস মেডিসিন বিশেষজ্ঞ )"></option>
+																	<option value="Surgeon (সার্জন )"></option>
+																	<option value="Thoracic Surgeon (থোরাকিক সার্জন )"></option>
+																	<option value="Urologist ( ইউরোলজিস্ট)"></option>
+																	<option value=" Vascular Surgeon(ভাস্কুলার সার্জন )"></option>
+																	<option value="Veterinarian (পশুচিকিত্সক )"></option>
+																	<option value="Acupuncturist ( আকুপাঙ্কচারিস্ট)"></option>
+																	<option value="Audiologist (অডিওলজিস্ট )"></option>
+																	<option value="Ayurvedic Practitioner (আয়ুর্বেদিক অনুশীলনকারী )"></option>
+																	<option value="Diagnostician (ডায়াগনস্টিয়ান )"></option>
+																	<option value=" Homeopathic Doctor( হোমিওপ্যাথিক ডাক্তার)"></option>
+																	<option value="Microbiologist (মাইক্রোবায়োলজিস্ট )"></option>
+																	<option value="Naturopathic Doctor (প্রাকৃতিক রোগের ডাক্তার )"></option>
+																	<option value=" Nutritionist(পুষ্টিবিদ )"></option>
+																	<option value="Pharmacist ( ফার্মাসিস্ট)"></option>
+																	<option value="Physiotherapist ( ফিজিওথেরাপিস্ট)"></option>
+																	<option value="Podiatrist / Chiropodist (পোডিয়াট্রিস্ট / চিরোপোডিস্ট )"></option>
+																	<option value="Others (অন্যান্য )"></option>
+																	
+																	
+																	
+																
+															</datalist>
+
+
+
+
+														<br>
+													<label for="divition"> বিভাগ নির্বাচন করুন</label><br>
+													<input list="divition" name="
+													blood-group" id="dition"
+													type="text" placeholder=" বিভাগ">
+													<datalist id="divition">
+																	<option value="Barisal"></option>
+																	<option value="Chittagong"></option>
+																	<option value="Dhaka"></option>
+																	<option value="Khulna"></option>
+																	<option value="Mymensingh"></option>
+																		<option value="Rajshahi"></option>
+																		<option value="Rangpur"></option>
+																		<option value="Sylhet"></option>
+															</datalist>
+													<br>  
+													<label>জেলা  <sub style="font-size: small;">(ইংরেজিতে লিখুন )</sub></label><br>
+													<input type="text" placeholder="Barguna "> 
+													<br>     
+													<label> উপজেলা  <sub style="font-size: small;">(ইংরেজিতে লিখুন )</sub> </label><br>
+													<input type="text" placeholder="Amtali"> 
+													<br><p></p>
+													<input class="btn btn-light btn-outline-primary" type="submit"value='খুজুন' >
+									</div>
+ 
+					</div>
+					 
+	</div>
+</div>
+</div>
+ 
+
+<div class="col-md-7">
+	<br>
+	
+<h3>বাংলাদেশের রক্তদাতাদের ডেটাবেস। আপনার প্রয়োজনে রক্তদাতা <a href="#donar-search">খুঁজুন</a> ও মহৎ কাজে অংশ নিতে <a href="bdonar.html">নিবন্ধন</a>  করুন। </h3><br>
+
+<h3>বাংলাদেশের সম্মানিত  ডাক্তারদের ডেটাবেস। আপনার প্রয়োজনে যেকোন অবস্থানের ও বিভাগের ডাক্তারদের তথ্য<a href="#doctor-search"> খুঁজে নিন </a>। ডক্টর ডেটাবেসে যুক্ত হতে<a href="bdoctor.html"> নিবন্ধন করুন </a> ।  </h3><br>
+
+<h5 class="text-center font-weight-bolder"><u>জেনে নিন</u></h5>
+ <br> 
+ যে ব্যাক্তি কোন ব্যক্তিকে রক্ষা করল সে যেন সমস্ত মানুষকে রক্ষা করল।(আল কুরআন) <br>
+ <p>
+	সর্বশ্রেষ্ঠ ও নিঃশ্বার্থ দান হলো রক্তদান। রক্ত এমন এক তরল যা কৃত্রিম ভাবে তৈরি করা যায় না।প্রানীদেহে রক্তের প্রয়োজন।রক্তের অভাবে মানুষের মৃত্যু হতে পারে। কোন মানুষের দেহ থেকে  রক্ত সংগ্রহ করে প্রয়োজন মেটাতে হয়।রক্ত দিলে রক্ত কমেনা বরং নিয়মিত রক্তদানে নতুন লোহিত কনিকা সৃষ্টি হয়। প্রত্যেক সুস্থ মানুষের শরীরের লোহিত রক্তকণিকাগুলো স্বাভাবিক প্রক্রিয়ায় ৮০ থেকে ১২০ দিন পরপর ধ্বংস হয় এবং প্রতিনিয়ত নতুন নতুন রক্তকণিকা তৈরি হতে থাকে । সাধারণত প্রাপ্তবয়স্ক সুস্থ মানুষের শরীরে ৪ থেকে ৬ লিটার পরিমাণ রক্তথাকে । প্রতিবার ৪৫০ মিলিলিটার রক্ত দেয়া হয়।<br>
+ 
+আপনার কোন ভাই /বোন রক্তের অভাবে মারা যাচ্ছে অথচ আপনার শরীরে প্রয়োজনাতীত রক্ত প্রবাহিত হচ্ছে যা দিয়ে চাইলে আপনি তার জীবন বাঁচাতে সহায়ক হতে পারেন।আপনি যদি রক্তদানে ইচ্ছুক না হোন আর মানুষটি যদি রক্তের অভাবে মারা যায় তবে তার মৃত্যুর দায়ভার কার??
+
+<br>
+
+মানুষ মানুষের জন্য। একজনের বিপদে অন্যজন পাশে দাঁড়াবে এটাই মানবিকতা। আর এটাই মানুষকে আরও মহৎ করে তোলে।অপর মানুষের বিপদে পাশে দাড়াতে এই সাইটে নিবন্ধন করে আপনিও মহৎ মানুষদের কাতারে সামিল হোন।
+
+<br>
+
+ <h5 class="text-center"> <u> কেন রক্ত দিবেন?</u> </h5><br>
+ <strong> ০১।</strong> রক্তদান একটি মহৎ ও সর্বশ্রেষ্ঠ দান। <br> 
+ <strong>০২।</strong> আপনার দানকৃত রক্ত  অপর মানুষের জীবন বাঁচাতে সহায়ক।<br>
+ <strong>০৩।</strong>নিয়মিত রক্তদাতাদের ক্যানসারে আক্রান্ত হওয়ার ঝুঁকি কম থাকে।<br>
+ <strong>০৪।</strong>বছরে তিনবার রক্তদানে শরীরে নতুন লোহিত কণিকা তৈরির হার বেড়ে যায়।এতে অস্থিমজ্জা সক্রিয় থাকে।<br>
+ <strong>০৫।</strong> রক্তে কোলেস্টরেলের মাত্রা কমে যায়,ফলে রক্তচাপ  নিয়ন্ত্রণে থাকে। <br>
+ <strong>০৬।</strong> হৃদরোগ ও হার্ট এ্যাটাকের ঝুঁকি কমে যায়।<br>
+ <strong>০৭।</strong> রোগ প্রতিরোধ ক্ষমতা বাড়ে।<br>
+ <strong>০৮।</strong> শরীরে কোন বড় ধরনের রোগ আছে কিনা তার বিনা খরচে জানা যায়।যেমন: হেপাটাইটিস-বি,এইচআইভি, জন্ডিস ইত্যাদি। <br>
+ <strong>০৯। </strong> রক্ত দিলে যে ক্যালোরি খরচ হয়,তা ওজন কমানোর ক্ষেত্রে ও রক্তচাপ নিয়ন্ত্রণে গুরুত্বপূর্ণ ভূমিকা রাখে।<br>
+ <strong>১০। </strong> কখনো রক্তদাতার রক্তের প্রয়োজন হলে ব্লাডব্যাংক গুলো অগ্রাধিকার ভিত্তিতে রক্তের ব্যবস্থা করে দেয়।<br>
+
+ </p>
+</div>
+</div>
+
+</header>
+</div>
+ <div class="container">
+	<p style="margin-bottom: 2px;">
+	<h4><u>কারা রক্তদান করতে পারবে? </u></h4><br>
+	<strong> ০১।</strong>  ১৮ বছর থেকে ৬০ বছরের যেকোনো সুস্থ মানুষ রক্তদান করতে পারবে। <br> 
+	<strong>০২।</strong> শারীরিক এবং মানসিকভাবে সুস্থব্যক্তি রক্ত দিতে পারবে।<br>
+	<strong>০৩।</strong> ওজন অবশ্যই ৫০ কিলোগ্রাম কিংবা তার বেশি হতে হবে।<br>
+	<strong>০৪।</strong> মহিলাদের ক্ষেত্রে ৪ মাস অন্তর-অন্তর,পুরুষদের ক্ষেত্রে ৩ মাস  অন্তর-অন্তর রক্ত-দান করা যায়।<br>
+	<strong>০৫।</strong> শ্বাস-প্রশ্বাস জনিত রোগ এ্যাজমা,হাপানি,ভাইরাস জনিত রোগমুক্ত হতে হবে। <br>
+	<strong>০৬।</strong> রক্তবাহিত জটিল রোগ যেমন-ম্যালেরিয়া,এইডস,চর্মরোগ,হৃদরোগ,ডায়াবেটিস,সিফিলিস,গনোরিয়া,হেপাটাইটিস, টাইফয়েড এবং বাতজ্বর না থাকলে।<br>
+ <strong>০৭।</strong> চর্মরোগ মুক্ত হতে হবে।<br>
+ <strong>০৮।</strong> মহিলাদের মধ্যে যারা গর্ভবতী নন এবং যাদের পিরিয়ড চলছেনা।<br>
+ <strong>০৯।</strong> আপনাকে অবশ্যই হেপাটাইটিস-বি,হেপাটাইটিস-সি,এইডস,ক্যান্সার,যক্ষা,সিজোফ্রেনিয়া এবং ম্যালেরিয়া রোগমুক্ত হতে হবে।<br>
+ <strong>১০।</strong> রক্তে হিমোগ্লোবিনের পরিমাণ,রক্তচাপ ও শরীরের তাপমাত্রা স্বাভাবিক থাকতে হবে।<br>
+
+ <strong>১১।</strong> কোন ধরনের এন্টিবায়োটিক সেবনের পর রক্তদান করা যাবেনা। <br>
+  
+	</p>
+	<p>
+		<h4> <u>কেন রক্তের প্রয়োজন?? </u> </h4><br>
+<strong>০১।</strong> দুর্ঘটনায় আহত ব্যক্তিদের জন্য ।<br>
+<strong>০২।</strong> ক্যান্সার বা অন্য কোন জটিল রোগে আক্রান্তদের জন্য । <br>
+<strong>০৩।</strong>অস্ত্রোপচার কিংবা সন্তান প্রসব ।<br>
+<strong>০৪।</strong> থ্যালাসেমিয়ার মতো বিভিন্ন রোগের চিকিৎসায় রক্ত সঞ্চালনের প্রয়োজন হয়।<br>
+ 
+<br><h5>সঠিক সময়ে প্রয়োজনীয় রক্তের অভাবে মানুষের মৃত পর্যন্ত হতে পারে।<br></h5><br>
+
+<h4><u> রক্তদান সম্পর্কিত তথ্য </u></h4>
+বাংলাদেশে জনসংখ্যার তুলনায় রক্তদাতা খুবই নগন্য।পরিসংখ্যান অনুযায়ী দেশে বছরে আট থেকে নয় লাখ ব্যাগ রক্তের চাহিদা থাকলেও রক্ত সংগ্রহ হয় ছয় থেকে সাড়ে ছয় লাখ ব্যাগ।ঘাটতি থাকে তিন লাখ ব্যাগেরও বেশি।<br>
+
+এছাড়াও সংগ্রহকৃত রক্তের মাত্র ৩০ শতাংশ আসে স্বেচ্ছায় রক্তদাতাদের থেকে।নিজের পরিবারের সদস্য বা পরিচিতজন না হলে এখনো বেশিরভাগ মানুষ রক্তের জন্য পেশাদার রক্তদাতাদের ওপর নির্ভর করে।এক ব্যাগ রক্ত দিতে সময় লাগে মাত্র ৭ থেকে ১৫ মিনিট।অথচ এই অল্প সময়ে চাইলেই একজন মানুষের প্রাণ বাঁচাতে সহায়ক ভূমিকা রাখা যায় ।<br>
+পুরুষের শরীরের ওজনের কেজি প্রতি ৭৬ মিলিলিটার এবং মহিলাদের শরীরে ওজনের কেজি প্রতি ৬৬ মিলিলিটার রক্ত থাকে।
+উভয়ের ক্ষেত্রেই ৫০ মিলিলিটার রক্ত সংবহনের কাজে লাগে,বাকিটা উদ্বৃত্ত থেকে যায়।
+
+ <br>
+ একজন মানুষের শরীরে উদ্বৃত্ত রক্তের পরিমাণ (৭৬মিলিলিটার-৫০মিলিলিটার)=কেজি প্রতি ২৬মিলিলিটারও মহিলাদের কেজি প্রতি (৬৬মিলিলিটার-৫০মিলিলিটার)=১৬মিলিলিটার
+অর্থাৎ,৫০ কেজি ওজনের একজন পুরুষের শরীরে উদ্বৃত্ত রক্তের পরিমাণ(৫০কেজি* ২৬মিলিলিটার) =১৩০০মিলিলিটার ও মহিলাদের (৫০কেজি*১৬মিলিলিটার)=৮০০মিলিলিটার
+ <br>
+ স্বেচ্ছায় রক্তদানে একজন দাতার কাছ থেকে ৩৫০ থেকে ৪৫০ মিলিলিটার রক্তসংগ্রহ করা হয় যা তার শরীরে থাকা মোট রক্তের ১০ ভাগের ১ ভাগএবংউদ্বৃত্ত রক্তের অর্ধেকেরও কম।যে পরিমাণ রক্ত নেয়া হয় সেই পরিমাণ রক্ত মাত্র ৪৮ ঘন্টার ব্যবধানে আবার আগের মতো হয়ে যায়।এ কারণে অধিকাংশ রক্তদাতা রক্তদানের পর কিছুই অনুভব করেন না। 
+ <br>
+ 
+	</p>
+
+ </div>
+ <div class=" container footer-1 text-center">
+	<h4><a href="#top">উপরে যান </a></h4>
+	<p> language Change - <a  href="../index.html">English</a></p>
+<p > বাংলাদেশ ব্লাড ব্যাংক কর্তৃৃৃক স্বর্বস্বত্ব সংরক্ষিত </p>
+<p class="text-md-right">ডিজাইন ও ডেভেলপমেন্ট </br>
+	<a href="mailto:mdt01799@gmail.com" >  মো: তাওহীদুল  ইসলাম </a></p>
+
+</div>
+
+ 
+		 <!-- bootstrap js -->
+		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+		 </script>
+		 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		 integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+		 </script>
+		 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+		 integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+		 </script>
+		 </body>
+		
+	   </body>
+	   </html>
